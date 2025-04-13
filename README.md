@@ -1,1 +1,29 @@
-# church__site
+Church_site/
+├── README.md                
+├── church_project/          # Django project directory
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+├── church_app/              # Main Django app
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── urls.py
+│   ├── views.py
+│   └── migrations/
+├── templates/               # Django templates 
+│   ├── church_app/
+│   │   ├── index.html
+│   │   ├── contact.html
+│   │   └── ...
+├── static/                  # Static files directory
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── media/                   # User uploaded content
+├── manage.py
+└── requirements.txt
